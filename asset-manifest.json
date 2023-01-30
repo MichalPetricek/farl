@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/farl/static/css/main.50a06126.css",
+    "main.js": "/farl/static/js/main.42554627.js",
+    "static/js/787.bdc7a86b.chunk.js": "/farl/static/js/787.bdc7a86b.chunk.js",
+    "static/media/blair-itc-medium.ttf": "/farl/static/media/blair-itc-medium.175792dc168f35118ab1.ttf",
+    "static/media/logo.png": "/farl/static/media/logo.a3fce1de86f4204ae001.png",
+    "index.html": "/farl/index.html",
+    "main.50a06126.css.map": "/farl/static/css/main.50a06126.css.map",
+    "main.42554627.js.map": "/farl/static/js/main.42554627.js.map",
+    "787.bdc7a86b.chunk.js.map": "/farl/static/js/787.bdc7a86b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50a06126.css",
+    "static/js/main.42554627.js"
+  ]
+}
