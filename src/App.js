@@ -11,6 +11,7 @@ import Kontakt from "./Pages/Kontakt/Kontakt";
 import Vysivka from './Pages/Sluzby/Vysivka';
 import Tisk from './Pages/Sluzby/Tisk';
 import Laser from './Pages/Sluzby/Laser';
+import Footer from './Components/Footer/Footer';
 
 const App = () =>{
     return(
@@ -31,6 +32,7 @@ const App = () =>{
               </Routes>
           </main>
           <footer>
+            <Footer></Footer>
           </footer>
         </Router>
     </div>

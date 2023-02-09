@@ -1,3 +1,146 @@
-.uvod{
-    height: 200vh;
+
+.uvod-background{
+    background-color:#FFED00;
+    padding-top: 120px;
+    position: relative;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 40px;
+}
+.uvodgrid1-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr; 
+    position: relative;
+    grid-gap: 5px;
+    grid-template-areas:
+    "vysivka eshop eshop textil"
+    "tisk eshop eshop laser"
+    ;
+}
+.uvodgrid1-item{
+    width: 100%;
+    height: auto;
+}
+.uvodgrid1-img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+.uvodgrid1-text{
+    position: absolute;
+    color: white;
+    width:100%;
+    bottom: 0px;
+    text-align: center;
+    background-color: #0000009f;
+    padding-top: 10px;
+    margin: 0px;
+	transition: 0.5s ease-in-out;
+    height: 55px;
+}
+.uvodgrid1-znak{
+    color: #FFED00;
+    display: none;
+}
+.uvodgrid1-card{
+    padding: 0px;
+    margin: 0px;
+}
+
+.uvodgrid11{
+    grid-area: eshop;
+}
+.uvodgrid12{
+    grid-area: vysivka;
+}
+.uvodgrid13{
+    grid-area: tisk;
+}
+.uvodgrid14{
+    grid-area: textil;
+}
+.uvodgrid15{
+    grid-area: laser;
+}
+/*text*/
+.uvod-main-farl{
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+}
+.uvod-container-text{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 80px;
+    margin-top: 40px;
+}
+.uvod-text1{
+    font-family: Arial;
+    text-align:center;
+    font-size: 28px;
+}
+.uvod-text-znak{
+    color: #FFED00;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*end of text*/
+/*hover*/
+@media (min-width: 1200px){
+    /*hover-grid1*/
+    .uvodgrid1-card:hover > .uvodgrid1-text {
+        height: 100%;
+        padding-top: 32%;
+        
+    }
+    .uvodgrid1-card:hover > .uvodgrid1-text > .uvodgrid1-znak {
+        display: inline;
+    }
+/*end of hover grid1*/
+}
+/*end of hover*/
+@media (max-width: 1200px){
+    .uvodgrid1-container{
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "eshop eshop"
+        "eshop eshop"
+        "vysivka textil"
+        "tisk laser"
+        ;
+    }
+    .uvod-background{
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .uvodgrid1-znak{
+        display: inline;
+    }
+}
+@media (max-width: 600px){
+    .uvodgrid1-container{
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        grid-template-areas: 
+        "eshop"
+        "vysivka"
+        "textil"
+        "tisk"
+        "laser"
+        ;
+    }
+    .uvod-background{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 80px;
+        background-color: transparent;
+    }
+    .uvod-container-text{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
 }
