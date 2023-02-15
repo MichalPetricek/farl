@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/farl/static/css/main.24c7f4e7.css",
-    "main.js": "/farl/static/js/main.92e7478f.js",
+    "main.css": "/farl/static/css/main.2356c300.css",
+    "main.js": "/farl/static/js/main.8e88ef5a.js",
     "static/js/787.bdc7a86b.chunk.js": "/farl/static/js/787.bdc7a86b.chunk.js",
+    "static/media/uvod-bg.jpg": "/farl/static/media/uvod-bg.ef007a8dbe3cebafa7fe.jpg",
     "static/media/textil-uvod.png": "/farl/static/media/textil-uvod.5288ce812d9fc49e6318.png",
     "static/media/vysivka-uvod.png": "/farl/static/media/vysivka-uvod.92ce738c85f80ae3290f.png",
     "static/media/laser-uvod.png": "/farl/static/media/laser-uvod.aa28b7c6cba798452edc.png",
     "static/media/tisk-uvod.png": "/farl/static/media/tisk-uvod.753881372f87953f05a6.png",
     "static/media/eshop-uvod2.png": "/farl/static/media/eshop-uvod2.f5ce37bf54f5adfdb6ba.png",
+    "static/media/kontakt-bg.jpg": "/farl/static/media/kontakt-bg.ae827aaf3dde05cad3c7.jpg",
     "static/media/blair-itc-medium.ttf": "/farl/static/media/blair-itc-medium.175792dc168f35118ab1.ttf",
     "static/media/logo.png": "/farl/static/media/logo.a3fce1de86f4204ae001.png",
     "index.html": "/farl/index.html",
-    "main.24c7f4e7.css.map": "/farl/static/css/main.24c7f4e7.css.map",
-    "main.92e7478f.js.map": "/farl/static/js/main.92e7478f.js.map",
+    "main.2356c300.css.map": "/farl/static/css/main.2356c300.css.map",
+    "main.8e88ef5a.js.map": "/farl/static/js/main.8e88ef5a.js.map",
     "787.bdc7a86b.chunk.js.map": "/farl/static/js/787.bdc7a86b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.24c7f4e7.css",
-    "static/js/main.92e7478f.js"
+    "static/css/main.2356c300.css",
+    "static/js/main.8e88ef5a.js"
   ]
 }
