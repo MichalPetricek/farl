@@ -1,5 +1,8 @@
 
 .uvod-background{
+    background-image: url(../../Images//uvod/uvod-bg.jpg);
+    background-size: cover;
+    background-position:center;
     background-color:#FFED00;
     padding-top: 120px;
     position: relative;
@@ -47,6 +50,7 @@
 .uvodgrid1-card{
     padding: 0px;
     margin: 0px;
+    border: 0;
 }
 
 .uvodgrid11{
@@ -137,7 +141,7 @@
         padding-left: 0px;
         padding-right: 0px;
         padding-top: 80px;
-        background-color: transparent;
+        background-image:none;
     }
     .uvod-container-text{
         margin-left: 2%;
