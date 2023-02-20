@@ -37,6 +37,9 @@
   .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
     color: white;
   }
+  .navbar-nav:hover .nav-link.active:hover, .navbar-nav:hover .show>.nav-link:hover{
+    color: #FFED00;
+  }
   #link-eshop{
     color: white;
     font-size: 18px;

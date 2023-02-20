@@ -1,8 +1,12 @@
+.uvod2-page{
+    background-color: black;
+    padding-bottom: 1px;
+}
 
-.uvod-background{
+.uvod2-background{
     background-size: cover;
     background-position:center;
-    background-color: white;
+    background-color: black;
     padding-top: 120px;
     position: relative;
     padding-left: 10%;
@@ -30,7 +34,7 @@
     height: 100%;
     margin: 0px;
 }
-.uvodgrid1-text{
+.uvod2grid1-text{
     position: absolute;
     color: white;
     width:100%;
@@ -68,16 +72,18 @@
     grid-area: laser;
 }
 /*text*/
-.uvod-main-farl{
+.uvod2-main-farl{
     margin-top: 20px;
     position: relative;
     text-align: center;
+    color: white;
 }
-.uvod-container-text{
+.uvod2-container-text{
     margin-left: 15%;
     margin-right: 15%;
     margin-bottom: 80px;
     margin-top: 40px;
+    color: white;
 }
 .uvod-text1{
     font-family: Arial;
@@ -93,12 +99,12 @@
 /*hover*/
 @media (min-width: 1200px){
     /*hover-grid1*/
-    .uvodgrid1-card:hover > .uvodgrid1-text {
+    .uvodgrid1-card:hover > .uvod2grid1-text {
         height: 100%;
         padding-top: 32%;
         
     }
-    .uvodgrid1-card:hover > .uvodgrid1-text > .uvodgrid1-znak {
+    .uvodgrid1-card:hover > .uvod2grid1-text > .uvodgrid1-znak {
         display: inline;
     }
 /*end of hover grid1*/

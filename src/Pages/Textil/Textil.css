@@ -1,0 +1,47 @@
+.textil-page{
+    min-height: 100vh;
+    padding-top: 80px;
+}
+.textil-bg{
+    background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)), url(../../Images//Sluzby/sluzby-background.jpg);
+    background-size: cover;
+}
+.textil-main{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+}
+.textil-brands-container{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.textil-brands-grid{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+.textil-brands-img{
+    width: 100%;
+    height: auto;
+}
+@media (max-width:1200px){
+    .textil-brands-container{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+@media (max-width:800px){
+    .textil-brands-container{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+}
+@media (max-width:600px){
+    .textil-brands-grid{
+        grid-template-columns: 1fr;
+    }
+}

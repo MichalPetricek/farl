@@ -1,13 +1,19 @@
 import React from "react";
 import "./Kontakt.css";
 import {ImLocation} from "react-icons/im";
-import { BiHome,BiPhone,BiMail } from "react-icons/bi";
+import {BiPhone} from "react-icons/bi";
 import{GoMail} from "react-icons/go";
 import {RiBillLine} from "react-icons/ri";
+import { Helmet } from "react-helmet-async";
 
 const Kontakt = () => {
     return(
         <div className="kontakt-page">
+            <Helmet>
+                <title>FARL kontakt</title>
+                <meta name="description" content="Neváhejte nás kontaktovat." />
+                <link rel="canonical" href="/kontakt"></link>
+            </Helmet>
             <div className="kontakt-background">
                 <div className="kontaktgrid1-container">
                     <div className="kontaktgrid1-item">
@@ -38,6 +44,7 @@ const Kontakt = () => {
                 <iframe className="kontakt-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2525.8872183191206!2d15.154849915741213!3d50.7220314795137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470ecada2fe5c6e5%3A0x4240fc2bfffdab33!2sFarl%2C%20S.r.o.!5e0!3m2!1scs!2scz!4v1676451953641!5m2!1scs!2scz"  
                 loading="lazy" 
                 allowFullScreen="yes"
+                title="mapa"
                 referrerpolicy="no-referrer-when-downgrade">  
                 </iframe>
                 </div>
