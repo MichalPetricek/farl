@@ -13,7 +13,7 @@ const Uvod = () => {
     return(
         <div className="uvod-page">
             <Helmet>
-                <title>FARL úvod</title>
+                <title>FARL</title>
                 <meta name="description" content="Naše společnost je zaměřena na komplexní služby v oblasti potisku a vyšívání textilu." />
                 <link rel="canonical" href="/"></link>
             </Helmet>
