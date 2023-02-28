@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e5d1e4e8.css",
-    "main.js": "/static/js/main.5aa2a61b.js",
+    "main.js": "/static/js/main.e123bb58.js",
     "static/js/787.bdc7a86b.chunk.js": "/static/js/787.bdc7a86b.chunk.js",
     "static/media/textil-uvod.png": "/static/media/textil-uvod.5288ce812d9fc49e6318.png",
     "static/media/vysivka-uvod.png": "/static/media/vysivka-uvod.92ce738c85f80ae3290f.png",
@@ -28,11 +28,11 @@
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
     "main.e5d1e4e8.css.map": "/static/css/main.e5d1e4e8.css.map",
-    "main.5aa2a61b.js.map": "/static/js/main.5aa2a61b.js.map",
+    "main.e123bb58.js.map": "/static/js/main.e123bb58.js.map",
     "787.bdc7a86b.chunk.js.map": "/static/js/787.bdc7a86b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e5d1e4e8.css",
-    "static/js/main.5aa2a61b.js"
+    "static/js/main.e123bb58.js"
   ]
 }
