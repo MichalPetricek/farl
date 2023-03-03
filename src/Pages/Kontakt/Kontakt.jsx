@@ -29,12 +29,21 @@ const Kontakt = () => {
                     <div className="kontaktgrid1-item">
                         <GoMail className="kontaktgrid1-logo"></GoMail>
                         <h5 className="kontaktgrid1-main"><h3 className="kontaktgrid1-znak">-</h3> Email <h3 className="kontaktgrid1-znak">-</h3></h5>
-                        <a href = "mailto: michal.grabar@farl.cz" id="kontaktgrid1-text-href" className="kontaktgrid1-text">michal.grabar@farl.cz</a>
+                        <div>
+                            <a href = "mailto: obchod@farl.cz" id="kontaktgrid1-text-href" className="kontaktgrid1-text">obchod@farl.cz</a>
+                        </div>
+                        <div>
+                            <a href = "mailto: michal.grabar@farl.cz" id="kontaktgrid1-text-href" className="kontaktgrid1-text">michal.grabar@farl.cz</a>
+                        </div>
+                        <div>
+                            <a href = "mailto: info@farl.cz" id="kontaktgrid1-text-href" className="kontaktgrid1-text">info@farl.cz</a>
+                        </div>
                     </div>
                     <div className="kontaktgrid1-item">
                         <RiBillLine className="kontaktgrid1-logo"></RiBillLine>
                         <h5 className="kontaktgrid1-main"><h3 className="kontaktgrid1-znak">-</h3> Fakturační údaje <h3 className="kontaktgrid1-znak">-</h3></h5>
                         <div id="kontaktgrid1-ico">
+                            <div className="kontaktgrid1-text">Druzcov 124, 463 52, Osečná</div>
                             <div className="kontaktgrid1-text">IČO: 25412922</div>
                             <div className="kontaktgrid1-text">DIČ: CZ25412922</div>
                         </div> 

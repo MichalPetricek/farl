@@ -2,11 +2,11 @@ import React from "react";
 import "./Uvod.css";
 import {BrowserRouter as Router, Link} from 'react-router-dom';
 import {Card} from "react-bootstrap";
-import EshopImg from "../../Images/uvod/eshop-uvod2.png";
+import EshopImg from "../../Images/uvod/eshop-uvod3.png";
 import VysivkaImg from "../../Images/uvod/vysivka-uvod.png";
 import TiskImg from "../../Images/uvod/tisk-uvod.png";
 import TextilImg from "../../Images/uvod/textil-uvod.png";
-import LaserImg from "../../Images/uvod/laser-uvod.png";
+import LaserImg from "../../Images/uvod/laser-uvod3.png";
 import { Helmet } from "react-helmet-async";
 
 const Uvod = () => {
@@ -20,12 +20,12 @@ const Uvod = () => {
             <div className="uvod-background">
                 <div className="uvodgrid1-container">
                     <div className="uvodgrid1-item uvodgrid11">
-                        <a href="https://www.shoptet.cz/">
+                        <Link to={"./eshop"}>
                             <Card className="uvodgrid1-card">
                                 <img className="uvodgrid1-img" src={EshopImg} alt="e-shop" />
                                 <h3 className="uvodgrid1-text"><text className="uvodgrid1-znak">-</text> E-shop <text className="uvodgrid1-znak">-</text></h3>
                             </Card>
-                        </a>
+                        </Link>
                     </div>
                     <div className="uvodgrid1-item uvodgrid12">
                         <Link to={"./vysivka"}>  
@@ -66,7 +66,7 @@ const Uvod = () => {
                 <h1 className="uvod-main-farl">FARL s.r.o</h1>
                 <p className="uvod-text1"><text className="uvod-text-znak">-</text> Naše společnost je zaměřena na komplexní služby v oblasti potisku a vyšívání textilu.</p>
                 <p className="uvod-text1"><text className="uvod-text-znak">-</text> Navrhneme optimální řešení bez ohledu na zvolený textil, logo či množství.</p>
-                <p className="uvod-text1"><text className="uvod-text-znak">-</text> Máme vlastní výrobu a 10 let zkušeností.</p>
+                <p className="uvod-text1"><text className="uvod-text-znak">-</text> Máme vlastní výrobu a 20 let zkušeností.</p>
                 <p className="uvod-text1"><text className="uvod-text-znak">-</text> Realizace od 1ks po mnohatisícové zakázky.</p>
                 <p className="uvod-text1"><text className="uvod-text-znak">-</text> Nejste si jisti jakou technologii zvolit? Máme řešení a rádi doporučíme.</p>
                 <p className="uvod-text1"><text className="uvod-text-znak">-</text> Vše na jednom místě - sítotisk, výšivka, sublimace, sítotiskový transfer, DTF tisky, UV tisk, laser, řezaná reklama a další služby.</p>

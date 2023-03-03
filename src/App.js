@@ -11,7 +11,7 @@ import Tisk from './Pages/Sluzby/Tisk';
 import Laser from './Pages/Sluzby/Laser';
 import Footer from './Components/Footer/Footer';
 import ScrollToTop from './Components/ScrollToTop';
-import Uvod2 from "./Pages/Uvod2/Uvod2";
+import Eshop from "./Pages/Eshop";
 
 const App = () =>{
     return(
@@ -24,7 +24,7 @@ const App = () =>{
             <ScrollToTop>
               <Routes>
                 <Route path='/' element={<Uvod/>}></Route>
-                <Route path='/black' element={<Uvod2/>}></Route>
+                <Route path='/eshop' element={<Eshop/>}></Route>
                 <Route path='/vysivka' element={<Vysivka/>}></Route>
                 <Route path='/tisk' element={<Tisk/>}></Route>
                 <Route path='/Laser' element={<Laser/>}></Route>

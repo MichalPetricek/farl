@@ -12,6 +12,7 @@ import img7 from "../../Images/Sluzby/Carousel/item7.png";
 import img8 from "../../Images/Sluzby/Carousel/item8.png";
 import img9 from "../../Images/Sluzby/Carousel/item9.png";
 import { Helmet } from "react-helmet-async";
+import {BrowserRouter as Router, Link} from 'react-router-dom';
 
 const Vysivka = () => {
     const responsive = {
@@ -37,14 +38,14 @@ const Vysivka = () => {
         <div className="sluzby-page">
              <Helmet>
                 <title>FARL výšivka</title>
-                <meta name="description" content="Vlastní výroba s kapacitou cca 2000ks výšivek měsíčně." />
+                <meta name="description" content="Vlastní výroba s kapacitou cca 4000ks výšivek měsíčně." />
                 <link rel="canonical" href="/vysivka"></link>
             </Helmet>
             <div className="sluzby-bg">
                 <h1 className="sluzby-main">Výšivka</h1>
             </div>
             <div className="sluzby-text">
-                <p><p className="sluzby-znak">-</p> Vlastní výroba s kapacitou cca 2000ks výšivek měsíčně.</p>
+                <p><p className="sluzby-znak">-</p> Vlastní výroba s kapacitou až 4000ks výšivek měsíčně.</p>
                 <p><p className="sluzby-znak">-</p> Výšivky, nášivky, aplikace, Twill aplikace.</p>
                 <p><p className="sluzby-znak">-</p> Nabízíme také 3D výšivky, sublimační nášivky, reflexní a fluorescenční výšivky, speciální aplikace a kombinace materiálů.</p>
                 <div className="sluzby-line"></div>
@@ -67,7 +68,8 @@ const Vysivka = () => {
                     <div className="sluzby-eshop-grid">
                         <h3 className="sluzby-eshop-text">Neváhejte objednat vlastní výšivku na našem eshopu.</h3>
                         <div>
-                            <a href="https://www.shoptet.cz" className="sluzby-eshop-button">e-shop/výšivka</a>
+                            <Link to={"../eshop"} className="sluzby-eshop-button">e-shop/výšivka</Link>
+                            {/*<a href="https://www.shoptet.cz" className="sluzby-eshop-button">e-shop/výšivka</a>*/}
                         </div>
                     </div>
             </div>

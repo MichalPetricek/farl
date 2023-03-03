@@ -72,7 +72,8 @@ const Tisk = () => {
                     <div className="sluzby-eshop-grid">
                         <h3 className="sluzby-eshop-text">Neváhejte objednat vlastní potisk na našem eshopu.</h3>
                         <div>
-                            <a href="https://www.shoptet.cz" className="sluzby-eshop-button">e-shop/tisk</a>
+                            <Link to={"../eshop"} className="sluzby-eshop-button">e-shop/tisk</Link>
+                            {/*<a href="https://www.shoptet.cz" className="sluzby-eshop-button">e-shop/tisk</a>*/}
                         </div>
                     </div>
             </div>

@@ -3,6 +3,7 @@ import "./Textil.css";
 import brands1 from  "../../Images/Sluzby/Textil/textil-brands1.png";
 import brands2 from  "../../Images/Sluzby/Textil/textil-brands2.png";
 import { Helmet } from "react-helmet-async";
+import {BrowserRouter as Router, Link} from 'react-router-dom';
 
 const Textil = () => {
     return(
@@ -32,7 +33,8 @@ const Textil = () => {
                     <div className="sluzby-eshop-grid">
                         <h3 className="sluzby-eshop-text">Neváhejte objednat textil na našem eshopu.</h3>
                         <div>
-                            <a href="https://www.shoptet.cz" className="sluzby-eshop-button">e-shop/textil</a>
+                            <Link to={"../eshop"} className="sluzby-eshop-button">e-shop/textil</Link>
+                            {/*<a href="https://www.shoptet.cz" className="sluzby-eshop-button">e-shop/textil</a>*/}
                         </div>
                     </div>
             </div>
